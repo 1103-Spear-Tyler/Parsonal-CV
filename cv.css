@@ -1,0 +1,115 @@
+/* Border-box*/
+* {
+box-sizing: border-box;
+}
+/* Background and Font*/
+body {
+  background: linear-gradient(56deg, #e2ac43, #34fcef);
+  font-family: 'Times New Roman', serif;
+  border: 5px solid rgb(252, 75, 199);
+}
+
+/* Heading 1 transformaion and color*/
+h1{
+    text-transform: uppercase;
+    text-decoration: underline dashed #ff09c2;
+    text-shadow: 5px 5px 5px #66eef8;
+    font-size: 3rem;
+    color: rgb(240, 202, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Heading 2 transformaion and color*/
+h2{
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px #ff09c2;
+    font-size: 2rem;
+    color: rgb(223, 238, 87);
+}
+/* Heading 3 transformaion and color*/
+h3{
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px #ddf50a;
+    font-size: 2rem;
+    color: rgb(72, 232, 243);
+}
+/* Text color for paragraphs*/
+p{
+    color: #34fcef;
+}
+/* Text color for lists*/
+li{
+    text-transform:capitalize;
+    color: #ddf50a;
+}
+/* Text color for table and moving the table to the center of the page*/
+.Skills {
+     color: #e916fc;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+td {
+    border: 5px groove yellow;
+    padding: 3px;
+}
+/* Text color for section*/
+section{
+    color: #ffffff;
+}
+section p {
+    color: #ffffff;
+}
+/* The padding for the headers */
+h2, h3 {
+    padding-top: 60px;
+}
+/* Image border and rounds the photo */
+img {
+    border-radius: 50%;
+    border: 7px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+/* centers the form */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* round the button */
+button {
+    border-radius: 30%;
+    outline: none;
+}
+/* spacing for lists*/
+li {
+    line-height: 1.8em;
+}
+/* Get arid of URL underlines and space them at bottom of page*/
+.anchor {
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+/* move my personal info. to the bottom right of section. */
+.aboutme {
+     display: flex;
+     justify-content: right;
+     align-items: right;
+     color: #ff5fd7;
+}
+/*Adjusting for phone view*/
+@media (max-width: 800px){
+    .text{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+}
